@@ -14,7 +14,7 @@ export const modifyToDo = function modifyToDo(e) {
     y.setAttribute("type", "text");
     y.setAttribute("value", `${found.message}`);
     label.appendChild(y).addEventListener('focusout', function () {
-        //creo nuovo array  
+        //creo nuovo array
         var mess = [];
         //carico il nuovo input   
         mess.push(y.value);

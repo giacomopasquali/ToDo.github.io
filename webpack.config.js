@@ -11,7 +11,7 @@ module.exports = {
             //output point
             filename: 'bundle.js'
         },
-        module: {
+    module: {
         rules: [
         {
             test: /\.(jpe?g|png|gif|svg)$/i,
